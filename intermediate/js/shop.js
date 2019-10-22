@@ -43,7 +43,7 @@ productCard.appendChild(shoppingCartButton);
 // elements in productCardImgDiv:
 
 let productCardImg = document.createElement("img");
-productCardImg.setAttribute("src", obj.image);
+productCardImg.setAttribute("src", obj.picurl);
 productCardImgDiv.appendChild(productCardImg);
 
 //html connection:
