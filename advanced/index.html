@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
@@ -25,20 +24,82 @@
             <div name="div9" class="div9"> </div>
         </div>
         <div class="div10">
-            <img name="div1" src="image_part_001.jpg">
-            <img name="div8" src="image_part_008.jpg">
-            <img name="div3" src="image_part_003.jpg">
-            <img name="div7" src="image_part_007.jpg">
-            <img name="div9" src="image_part_009.jpg">
-            <img name="div6" src="image_part_006.jpg">
-            <img name="div4" src="image_part_004.jpg">
-            <img name="div2" src="image_part_002.jpg">
-            <img name="div5" src="image_part_005.jpg">
+            <img id="1" src="image_part_001.jpg">
+            <img id="8" src="image_part_008.jpg">
+            <img id="3" src="image_part_003.jpg">
+            <img id="7" src="image_part_007.jpg">
+            <img id="9" src="image_part_009.jpg">
+            <img id="6" src="image_part_006.jpg">
+            <img id="4" src="image_part_004.jpg">
+            <img id="2" src="image_part_002.jpg">
+            <img id="5" src="image_part_005.jpg">
         </div>
     </main>
     <script type="text/javascript">
+
+    //all images are draggable
     $(function() {
         $("img").draggable();
+    });
+    
+    $(function() {
+        $(".div1").droppable({
+             accept: "#1",
+                drop: function (event, ui) {
+                        $(this).css("background-color", "lightgreen")
+                },
+        });
+         $(".div2").droppable({
+             accept: "#2",
+                drop: function (event, ui) {
+                        $(this).css("background-color", "lightgreen")
+                },
+        });
+          $(".div3").droppable({
+             accept: "#3",
+                drop: function (event, ui) {
+                        $(this).css("background-color", "lightgreen")
+                },
+        });
+           $(".div4").droppable({
+             accept: "#4",
+                drop: function (event, ui) {
+                        $(this).css("background-color", "lightgreen")
+                },
+        }); $(".div5").droppable({
+             accept: "#5",
+                drop: function (event, ui) {
+                        $(this).css("background-color", "lightgreen")
+                },
+        });
+         $(".div6").droppable({
+             accept: "#6",
+                drop: function (event, ui) {
+                        $(this).css("background-color", "lightgreen")
+                },
+        });
+          $(".div7").droppable({
+             accept: "#7",
+                drop: function (event, ui) {
+                        $(this).css("background-color", "lightgreen")
+                },
+        });
+           $(".div8").droppable({
+             accept: "#8",
+                drop: function (event, ui) {
+                        $(this).css("background-color", "lightgreen")
+                },
+        });
+            $(".div9").droppable({
+             accept: "#9",
+                drop: function (event, ui) {
+                        $(this).css("background-color", "lightgreen")
+                },
+        });
+
+
+
+
     });
     </script>
 </body>
