@@ -1,7 +1,13 @@
+
+window.onload = listItem();
+
+
+
 window.onload = listItem();
 
 function listItem(){
-for (var i = 1; i<=product.length; i++) {
+for (let i = 1; i<product.length; i++) {
+
 
 	var obj = product[i];
 	
