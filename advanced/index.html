@@ -4,9 +4,11 @@
 <head>
     <title>Puzzle!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">    
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 
 <body>
@@ -23,24 +25,22 @@
             <div name="div9" class="div9"> </div>
         </div>
         <div class="div10">
-            	<img name="div1" src="image_part_001.jpg">
-            	<img name="div8" src="image_part_008.jpg">
-            	<img name="div3" src="image_part_003.jpg">
-            	<img name="div7" src="image_part_007.jpg">
-            	<img name="div9" src="image_part_009.jpg">
-            	<img name="div6" src="image_part_006.jpg">
-            	<img name="div4" src="image_part_004.jpg">
-            	<img name="div2" src="image_part_002.jpg">
-            	<img name="div5" src="image_part_005.jpg">
-
-             </div>
+            <img name="div1" src="image_part_001.jpg">
+            <img name="div8" src="image_part_008.jpg">
+            <img name="div3" src="image_part_003.jpg">
+            <img name="div7" src="image_part_007.jpg">
+            <img name="div9" src="image_part_009.jpg">
+            <img name="div6" src="image_part_006.jpg">
+            <img name="div4" src="image_part_004.jpg">
+            <img name="div2" src="image_part_002.jpg">
+            <img name="div5" src="image_part_005.jpg">
+        </div>
     </main>
-       <script>
-        $(document).ready(function() {
-            
-       
+    <script type="text/javascript">
+    $(function() {
+        $("img").draggable();
     });
-</script>
+    </script>
 </body>
 
 </html>
