@@ -14,11 +14,12 @@
     <nav>
     </nav>
     <main>
-
+<div>
+    <img src="gift.png">
+    <img src="santa.png">
+    <img src="bell.png">
+</div>
 <div class="message">
-
-<p> test </p>
-
 </div>
     </main>
     <footer>
@@ -26,11 +27,27 @@
     <script>
         
 $(document).ready(function() {
-  $("img[src='gift.png']").on("click"(function() {
-      $("<p>Gift</p>").appendTo(".message");
 
-});
-});
+$("img").height(250);
+
+$("img[src='gift.png']").click(function() {
+$("<p>Gift</p>").appendTo(".message");
+})
+
+$("img[src='santa.png']").click(function() {
+$("<p>Santa</p>").appendTo(".message");
+})
+
+$("img[src='bell.png']").click(function() {
+$("<p>Bell</p>").appendTo(".message");
+})
+
+
+
+}
+
+);
+
 
 
     </script>
