@@ -11,8 +11,28 @@ header {
     height: 100px;  
     background-color: #F2F2F2;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    font-size: 2.5em;
+    font-weight: bold;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: grey;
+    background-color: white;
+}
+
+nav :hover {
+    color: lightgrey;
+}
+
 main{
 	background-color: white;
 }
