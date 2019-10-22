@@ -2,7 +2,7 @@
 window.onload = listItem();
 
 function listItem(){
-for (let i = 1; i<=product.length; i++) {
+for (let i = 1; i<product.length; i++) {
 
 	var obj = product[i];
 
@@ -21,7 +21,7 @@ productCardDesc.textContent = obj.name;
 
 let productCardPrice = document.createElement("p");
 productCardDesc.setAttribute("class", "product-card-price");
-productCardDesc.textContent = obj.name +" : "+Intl.NumberFormat('de-AT', { style: 'currency', currency: 'EUR' }).format(product[i].price) ;
+productCardDesc.textContent = obj.name +" : EUR "+ obj.price;
 
 
 let shoppingCartButton = document.createElement("img");
