@@ -1,5 +1,8 @@
+
+window.onload = listItem();
+
 function listItem(){
-for (let i = 0; i<product.length; i++) {
+for (let i = 1; i<=product.length; i++) {
 
 	var obj = product[i];
 
@@ -14,7 +17,7 @@ productCardImgDiv.setAttribute("class", "product-card-img");
 
 let productCardDesc = document.createElement("div");
 productCardDesc.setAttribute("class", "product-card-desc");
-productCardDesc.textContent = obj.name ;
+productCardDesc.textContent = obj.name;
 
 let productCardPrice = document.createElement("p");
 productCardDesc.setAttribute("class", "product-card-price");
@@ -23,7 +26,7 @@ productCardDesc.textContent = obj.name +" : "+Intl.NumberFormat('de-AT', { style
 
 let shoppingCartButton = document.createElement("img");
 shoppingCartButton.setAttribute("class", "shopping-cart-button");
-shoppingCartButton.setAttribute("src", "./img/product/cart.png");
+shoppingCartButton.setAttribute("src", "./img/cart.png");
 
 /*shoppingCartButton.addEventListener('click', function() {
 
@@ -50,3 +53,4 @@ productCardImgDiv.appendChild(productCardImg);
 document.getElementById("product-area").appendChild(productCard);
 }
 }
+
