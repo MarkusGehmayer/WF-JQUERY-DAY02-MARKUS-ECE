@@ -1,0 +1,42 @@
+var shopJson = [{
+	"name": "name",
+	"picurl" : "pic",
+	"price" : "price",
+},
+{
+	"name": "Cheese",
+	"picurl" : "./img./cheese.jpg",
+	"price" : "EUR 2,49",
+},
+{
+	"name": "Apple",
+	"picurl" : "./img./apple.jpg",
+	"price" : "EUR 0,50",
+},
+{
+	"name": "Chicken",
+	"picurl" : "./img./chicken.jpg",
+	"price" : "EUR 4,99",
+},
+{
+	"name": "Cola",
+	"picurl" : "./img./cola.jpg",
+	"price" : "0,89",
+},
+{
+	"name": "Milk",
+	"picurl" : "./img./milk.jpg",
+	"price" : "EUR 1,29",
+},
+{
+	"name": "Orange Juice",
+	"picurl" : "./img./o_juice.jpg",
+	"price" : "EUR 0,99",
+},
+{
+	"name": "Soda",
+	"picurl" : "./img./soda.jpg",
+	"price" : "EUR 0,39",
+}
+
+]
