@@ -19,7 +19,7 @@ var product = [{
 {
 	"id": "03",
 	"name": "Buffalo Pink",
-	"picurl" : "./img./Buffalo_peon.jpg",
+	"picurl" : "./img./Buffalo_pink.jpg",
 	"price" : "EUR 69,99",
 },
 {
@@ -55,7 +55,7 @@ var product = [{
 {
 	"id": "09",
 	"name": "The Sneaker Boot",
-	"picurl" : "./img./sneaker_boots.jpg",
+	"picurl" : "./img./sneaker_boot.jpg",
 	"price" : "EUR 99,99",
 },
 {
